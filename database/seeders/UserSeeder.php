@@ -90,7 +90,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'Newton Cleber',
             'username' => 'newtoncleber',
-            'email' => 'newtoncleber@fbe.com',
+            'email' => 'newtoncleber@gmail.com',
             'password' => bcrypt('41526341'),
             'user_levels_id' => 5,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
