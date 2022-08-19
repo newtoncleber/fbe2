@@ -6,8 +6,8 @@ use Livewire\Component;
 
 class Dashboard extends Component
 {
-    public function render()
+    public function mount()
     {
-        return view('livewire.dashboard');
+        return redirect()->route('atendimento.index');
     }
 }
